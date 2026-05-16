@@ -1,0 +1,17 @@
+# Ignoruj dane z teleskopów
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Ignoruj wytrenowane modele (są za ciężkie na GitHuba)
+models/*.pth
+
+# Ignoruj środowiska wirtualne i pliki konfiguracyjne IDE
+.vscode/
+.idea/
+__pycache__/
+*.pyc
+
+# Ignoruj ukryte pliki systemowe
+.DS_Store
