@@ -12,7 +12,7 @@ class UniverseEDA:
     """
 
     def __init__(self, raw_data_dir: str | Path):
-        
+          
         """
         Initializes the EDA toolkit with the root raw data directory.
         
@@ -20,7 +20,6 @@ class UniverseEDA:
             raw_data_dir: Path to the 'data/raw' directory.
         """
         # Hint: Convert string to pathlib.Path object here for safer path joining
-
         self.raw_data_dir = Path(raw_data_dir)
         self.solutions_csv = self.raw_data_dir / "training_solutions_rev1.csv"
         self.train_images_dir = self.raw_data_dir / "images_training_rev1"
