@@ -50,7 +50,7 @@ katalogowanie_wszechswiata/
 ├── main.py                 # Skrypt orkiestrujący trening (Two-Phase Pipeline)
 ├── requirements.txt        # Zależności projektu
 └── README.md
-
+```
 ---
 
 ## ⚙️ Instrukcja uruchomienia (Quick Start)
