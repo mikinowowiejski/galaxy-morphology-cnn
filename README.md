@@ -64,10 +64,11 @@ cd katalogowanie_wszechswiata
 conda create --name universe_env python=3.10 -y
 conda activate universe_env
 pip install -r requirements.txt
-
+```
 **2. Uruchomienie aplikacji:**
 ```bash
 python -m ui.app
-
+```
+Aplikacja wystartuje lokalnie i będzie dostępna w przeglądarce
 
 
