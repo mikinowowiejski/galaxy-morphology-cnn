@@ -53,3 +53,21 @@ katalogowanie_wszechswiata/
 
 ---
 
+## ⚙️ Instrukcja uruchomienia (Quick Start)
+
+Aby szybko przetestować model w interfejsie graficznym, postępuj zgodnie z poniższymi krokami. W repozytorium znajduje się folder `data/sample` z kilkoma przykładowymi zdjęciami gotowymi do testów.
+
+**1. Klonowanie repozytorium i instalacja zależności:**
+```bash
+git clone [TWÓJ_LINK_DO_GITHUBA]
+cd katalogowanie_wszechswiata
+conda create --name universe_env python=3.10 -y
+conda activate universe_env
+pip install -r requirements.txt
+
+**2. Uruchomienie aplikacji:**
+```bash
+python -m ui.app
+
+
+
