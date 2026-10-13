@@ -59,7 +59,7 @@ Aby szybko przetestować model w interfejsie graficznym, postępuj zgodnie z pon
 
 **1. Klonowanie repozytorium i instalacja zależności:**
 ```bash
-git clone [TWÓJ_LINK_DO_GITHUBA]
+git clone https://github.com/mikinowowiejski/galaxy-morphology-cnn
 cd katalogowanie_wszechswiata
 conda create --name universe_env python=3.10 -y
 conda activate universe_env
